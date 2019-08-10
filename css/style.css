@@ -1,3 +1,32 @@
 body {
-    background: red;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header {
+    background: #EEEEEE;
+    padding: 60px 0;
+}
+
+header nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-size: 24px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid orange;
 }
