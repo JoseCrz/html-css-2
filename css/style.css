@@ -25,6 +25,10 @@ header nav ul li a {
     font-size: 24px;
 }
 
+header nav ul li a:hover {
+    color: black;
+}
+
 h1, h2, h3, h4 {
     color: #3e3e3e;
 }
@@ -44,6 +48,11 @@ footer {
     margin: 0 auto;
     /* border: 1px solid orange; */
 }
+
+.active-link {
+    color: #f99600;
+}
+
 
 #hero {
     padding: 25px 0;
