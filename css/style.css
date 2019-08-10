@@ -35,6 +35,7 @@ h1, h2, h3, h4 {
 
 p {
     color: #585858;
+    font-size: 18px;
 }
 
 footer {
@@ -107,7 +108,9 @@ footer {
 .about-text-container {
     width: 50%;
 }
-
+#about h2 {
+    font-size: 30px;
+}
 #about p {
     margin: 36px 0;
 }
