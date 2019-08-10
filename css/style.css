@@ -30,3 +30,58 @@ header nav ul li a {
     margin: 0 auto;
     border: 1px solid orange;
 }
+
+#hero {
+    padding: 25px 0;
+    background: #FDFDFE;
+    font-size: 18px;
+}
+
+.hero-content-container {
+    display: flex;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.hero-text p {
+    color: #585858;
+}
+
+
+.hero-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-button {
+    background: linear-gradient(to top right, #ED1C24, #FCEE21);
+    font-size: 48px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.hero-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 80%;
+}
