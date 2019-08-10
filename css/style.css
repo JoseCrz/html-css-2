@@ -29,6 +29,16 @@ h1, h2, h3, h4 {
     color: #3e3e3e;
 }
 
+p {
+    color: #585858;
+}
+
+footer {
+    background: #EEEEEE;
+    padding: 50px 0;
+    text-align: center;
+}
+
 .wrapper {
     width: 1000px;
     margin: 0 auto;
@@ -60,11 +70,6 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-.hero-text p {
-    color: #585858;
-}
-
-
 .hero-button-container {
     display: flex;
     justify-content: center;
@@ -95,6 +100,5 @@ h1, h2, h3, h4 {
 }
 
 #about p {
-    color: #585858;
     margin: 36px 0;
 }
